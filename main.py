@@ -7,6 +7,17 @@ setting_location = local_path + fos() + "setting.json"
 
 S = load(setting_location)
 
+
+
+
+from platform import system as si
+
+ba = {'Windows':'cls','Linux':'clear'} 
+clear = ba[si()]
+
+
+
+
 def main():
 
     import os
@@ -15,9 +26,9 @@ def main():
     Locations = S['location']
     Roydads   = S[ 'roydad' ]
     
-    os.system('cls')
+    os.system(clear)
     input('Hellow!\n ready? ')
-    os.system('cls')
+    os.system(clear)
 
 
 
@@ -48,7 +59,7 @@ def main():
 
     while True :
         input('next? ')
-        os.system('cls')
+        os.system(clear)
         
 
 
