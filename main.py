@@ -38,7 +38,7 @@ def main():
         qa = q
 
     location_selected = Locations.random_unit()
-    print(' '*30,end='\r')
+    print(' '*19,end='\r')
     print(location_selected)
     last_location_selected = location_selected
 
@@ -52,13 +52,14 @@ def main():
         qa = q
 
     roydad_selected = Roydads.random_unit()
-    print(' '*30,end='\r')
+    print(' '*19,end='\r')
     print(roydad_selected)
     last_roydad_selected = roydad_selected
 
+  
 
     while True :
-        input('next? ')
+        input('\nnext? ')
         os.system(clear)
         
 
@@ -72,7 +73,7 @@ def main():
          
         while location_selected == last_location_selected:
             location_selected = Locations.random_unit()
-        print(' '*30,end='\r')
+        print(' '*19,end='\r')
         print(location_selected)
         last_location_selected = location_selected
 
@@ -87,7 +88,7 @@ def main():
 
         while roydad_selected == last_roydad_selected :
             roydad_selected = Roydads.random_unit()
-        print(' '*30,end='\r')
+        print(' '*19,end='\r')
         print(roydad_selected)
         last_roydad_selected = roydad_selected
 
