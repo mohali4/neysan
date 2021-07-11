@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "d:\\archive\\projects\\Git\\neysan",
+      "environment": [],
+      "program": "d:\\archive\\projects\\Git\\neysan\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Program Files\\C_compiler\\mingw\\mingw64\\bin\\gdb.exe",
+      "externalConsole": false
+    }
+  ]
+}

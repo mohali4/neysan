@@ -1,5 +1,5 @@
 {
-    "Locations":[
+    "Locations0": [
         "nezamy",
         "dasht",
         "kouh",
@@ -9,7 +9,14 @@
         "jangle",
         "kavir"
     ],
-    "Roydads":[
+
+    "Locations": [
+        "yek",
+        "dou",
+        "seh"
+    ],
+
+    "Roydads": [
         "tajhazat",
         "mehalood",
         "tajhiz_baybay",
@@ -18,5 +25,7 @@
         "tatily",
         "mamoriat",
         "bazrasy"
-    ]
+    ],
+    "time_sleep": 2,
+    "max_time": 0.1
 }

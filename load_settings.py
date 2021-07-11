@@ -34,6 +34,8 @@ def load (path) -> dict:
    
     return_sourse = {
         "location" : List(S['Locations']),
-        "roydad" : List(S['Roydads'])
+        "roydad" : List(S['Roydads']),
+        "time_sleep" : S['time_sleep'],
+        "max_time" : S['max_time']
     }
     return return_sourse
